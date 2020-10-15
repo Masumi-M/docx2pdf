@@ -11,6 +11,7 @@
 - macOS
 - Python3
 - Python Package ([docx2pdf](https://pypi.org/project/docx2pdf/))
+- Word Application
 
 ## Setup
 
@@ -25,7 +26,7 @@
 
 Dump in the word file to the current directory like the `sample.docx`.
 
-### 2. Execute the Command (All)
+### 2. Convert Every File
 
 Execute the next command to convert every file in the current directory.
 
@@ -33,7 +34,7 @@ Execute the next command to convert every file in the current directory.
 % ./docx2pdf
 ```
 
-### 3. Execute the Command (Partial)
+### (Option) Convert the Specific File
 
 Execute the next command to convert the specified file.
 
