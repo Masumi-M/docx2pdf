@@ -1,4 +1,4 @@
-# docx2pdf
+# docx2pdf-shell
 
 =====
 
