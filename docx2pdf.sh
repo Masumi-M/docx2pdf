@@ -3,10 +3,10 @@
 argnum=$#
 if [ $argnum = 0 ]; then
     echo "Converting every file to pdf..."
-    python3 docx2pdf.py
+    python3 main.py
 elif [ $argnum = 1 ]; then
     echo "Converting $1 to pdf..."
-    python3 docx2pdf.py $1
+    python3 main.py $1
 else
     echo "Error: It can only pass one argument."
     exit 0 
